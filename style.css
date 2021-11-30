@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans&display=swap');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inconsolata&family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Inconsolata', monospace;
+  background-color: #F7F6F2;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: rgb(70,70,70);
+  font-size: 30px;
+}
+
+h2 {
+  color: #142F43;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  color: #334756;
+  font-size: 16px;
+  }
+
+#image-circle {
+  width: 100px;
+  border-radius: 50%;
+  }
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #628395;
+  }
+
+a:hover {
+  color: #753422;
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 16px auto;
+  width: 500px;
+  text-align: center; 
+}
+
+.btn-blue {
+  background-color: #E1E8EB;
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.btn-blue:hover {
+  background-color: #D8B6A4;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: rgb(220,220,220);
+  margin: 8px 24px;
+}
+
+.social-icon:hover {
+  color: #628395;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
